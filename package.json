@@ -1,0 +1,41 @@
+{
+  "name": "movies-explorer-api",
+  "version": "1.0.0",
+  "description": "graduate work «film researcher» from Yandex Practicum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint .",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rBakirovv/movies-explorer-api.git"
+  },
+  "author": "Ruslan Bakirov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rBakirovv/movies-explorer-api/issues"
+  },
+  "homepage": "https://github.com/rBakirovv/movies-explorer-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "celebrate": "^15.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "express": "^4.17.3",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "validator": "^13.7.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
